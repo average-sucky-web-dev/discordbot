@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "type": "commonjs",
+    "name": "discordbot",
+    "description": "do i really need one",
+    "version": "0.1.0",
+    "homepage": "https://github.com/average-sucky-web-dev/discordbot",
+    "license": "MIT",
+    "main": "./index.js",
+    "bugs": {
+        "url": "https://github.com/average-sucky-web-dev/discordbot/pulls"
+    },
+    "author": {
+        "name": "average_sucky_web_dev",
+        "url": "https://github.com/average-sucky-web-dev"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/average-sucky-web-dev/discordbot"
+    },
+    "engines": {
+        "node": ">=17.0.0",
+        "npm": ">=8.0.0"
+    },
+    "dependencies": {
+        "discord.js": "14.18.0"
+    }
+}
