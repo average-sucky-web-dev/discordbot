@@ -2,5 +2,10 @@
     "robloxKey": "",
     "token": "",
     "clientId": "",
-    "guildId": ""
+    "guildId": "",
+    "mongoUsername": "",
+    "mongoPassword": "",
+    "mongoCluster": "",
+    "mongoDatabase": "",
+    "mongoCollection": ""
 }
