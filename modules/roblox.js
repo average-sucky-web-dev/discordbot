@@ -4,7 +4,7 @@ const domain = 'https://apis.roblox.com/cloud'
 
 async function sendRequestAuthenticated(method, url, postData, headers) {
     if (headers) {
-        return await axios.request(
+        return await axios(
             {
                 'url': url,
                 'method': method,
@@ -14,7 +14,7 @@ async function sendRequestAuthenticated(method, url, postData, headers) {
             }
         )
     } else {
-        return await axios.request(
+        return await axios(
             {
                 'url': url,
                 'method': method,
