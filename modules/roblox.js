@@ -6,9 +6,9 @@ async function sendRequestAuthenticated(method, url, postData, headers) {
     if (headers) {
         return await axios.request(
             {
-                'url': domain,
+                'url': url,
                 'method': method,
-                'baseURL': url,
+                'baseURL': domain,
                 'params': postData,
                 'headers': Object.assign(headers, {'x-api-key': robloxKey})
             }
@@ -16,9 +16,9 @@ async function sendRequestAuthenticated(method, url, postData, headers) {
     } else {
         return await axios.request(
             {
-                'url': domain,
+                'url': url,
                 'method': method,
-                'baseURL': url,
+                'baseURL': domain,
                 'params': postData,
                 'headers': {'x-api-key': robloxKey}
             }
